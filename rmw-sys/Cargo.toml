@@ -1,0 +1,10 @@
+[package]
+name = "rmw-sys"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+zenoh = { workspace = true }
+
+[build-dependencies]
+r2r_common = { workspace = true }

@@ -1,0 +1,18 @@
+[package]
+name = "rmw-zenoh-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rmw-sys = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+zenoh = { workspace = true }
+r2r = { workspace = true }
+bincode = { workspace = true }
+flume = { workspace = true }
+
+[lib]
+crate-type = ["cdylib"]
